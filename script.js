@@ -35,7 +35,7 @@ async function checkWeather(city) {
     } else if (data.weather[0].main == "Drizzle") {
       weatherIcon.src = "images/drizzle.png";
       document.body.style.backgroundImage = "url('images/rain-back.jpg')";
-    } else if (data.weather[0].main == "Mist") {
+    } else if (data.weather[0].main == "Mist" || data.weather[0].main == "Haze") {
       weatherIcon.src = "images/mist.png";
       document.body.style.backgroundImage = "url('images/mist-back.jpg')";
     } else if (data.weather[0].main == "Snow") {
