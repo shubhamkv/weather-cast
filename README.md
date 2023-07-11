@@ -1,5 +1,5 @@
 # weather-cast
- A weather app built in HTML, CSS and vanila Javascript.
+ A weather app built in HTML, CSS and vanilla Javascript.
  
  Functionalities :
  1. User can view the weather of his/her location.
