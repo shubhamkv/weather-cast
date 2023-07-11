@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 body {
-  background: #222;
+  background-image: url("./images/back-ground.jpg");
+  background-size: 800px 800px;
 }
 .card {
   width: 90%;
